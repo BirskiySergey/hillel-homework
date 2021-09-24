@@ -44,7 +44,6 @@ class Url(object):
                     query_str = query_str + f'&result={value}'
 
         print(query_str)
-        # ?q = python & result = json
 
         return query_str
 
