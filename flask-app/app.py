@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 from flask import Flask, request
-from source_code import source_code
 import time
 import string
 import random
@@ -27,7 +26,8 @@ def whoami():
 
 @app.route("/source_code")
 def source_code_page():
-    return source_code
+    import inspect
+    return inspect.getsource(inspect.getmodule(inspect.currentframe()))
 
 
 @app.route("/random")
