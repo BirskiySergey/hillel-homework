@@ -1,5 +1,5 @@
 source_code = """
-<h3><a href="#">Link To source code<a/></h3>
+<h3><a href="#">Link to git when you can find source code https://github.com/BirskiySergey/hillel-homework/blob/dz4_flask/flask-app/app.py<a/></h3>
 <pre>#!/usr/bin/python3
 from flask import Flask, request
 from source_code import source_code
