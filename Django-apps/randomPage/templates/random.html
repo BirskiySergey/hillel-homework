@@ -1,0 +1,11 @@
+{% extends "index.html"%}
+
+{% block content %}
+    <h2>Введите query параменты </h2>
+    <ul class="list-group list-group-flush">
+       <li class="list-group-item">length <b>0-100</b></li>
+       <li class="list-group-item">specials <b>1 или 0</b></b></li>
+       <li class="list-group-item">digits <b>1 или 0</b></li>
+   </ul>
+   <div>Рандомная строка: <b>{{ data }}</b></div>
+{% endblock %}

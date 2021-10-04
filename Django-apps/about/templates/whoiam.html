@@ -1,0 +1,9 @@
+{% extends "index.html"%}
+
+{% block content %}
+     <ul class="list-group list-group-flush">
+         {% for val in values %}
+            <li class="list-group-item"><b>{{ val }}</b></li>
+         {% endfor %}
+     </ul>
+{% endblock %}
